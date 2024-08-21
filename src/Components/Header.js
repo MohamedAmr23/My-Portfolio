@@ -6,7 +6,7 @@ export default function Header() {
   useEffect(()=>{
     const al=document.querySelector(".alllink")
     al.style.color="red"
-    navigate('/')
+    navigate('/My-Portfolio')
     const react1=document.querySelector(".reactlink")
     react1.addEventListener("click",()=>{
       al.style.color="white"
@@ -32,7 +32,7 @@ export default function Header() {
       return (
     <>
         <div className="box">
-          <Link className='alllink style after' to="/">All</Link> 
+          <Link className='alllink style after' to="/My-Portfolio">All</Link> 
           <Link className='reactlink style after' to="/react">React</Link> 
           <Link className='jslink style after' to="/js">JS</Link> 
           <Link className='htmllink style after' to="/htmlcss">HTML&CSS</Link> 
