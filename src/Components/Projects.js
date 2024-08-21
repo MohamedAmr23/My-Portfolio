@@ -21,7 +21,7 @@ export default function Projects() {
             <Header/>
         <Routes>
       
-            <Route path="/My-Portfolio" element={<Allpro/>}/>
+            <Route path="/" element={<Allpro/>}/>
             {/* <Route path='/all' element={<Allpro/>}/> */}
             <Route path='/react' element={<Reactpro/>}/>
             <Route path='/js' element={<JSpro/>}/>
