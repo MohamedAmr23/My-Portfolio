@@ -34,6 +34,7 @@ export default function Navbar() {
   }, []);
   return (
     <>
+    <div className='con'>
     <div className={`pos ${isScrolled ? 'styleheader' : 'smooth'}`}>
     <div className="container ">
    <nav className="navbar navbar-expand-lg">
@@ -67,7 +68,9 @@ export default function Navbar() {
   </div>
 </nav>
 </div>
-</div>
+    </div>
+    </div>
+    
     </>
   )
 }

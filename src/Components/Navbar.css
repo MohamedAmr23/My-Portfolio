@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .logo {
     text-transform: uppercase;
     font-weight: bold;
@@ -7,11 +10,11 @@
     font-size: 40px;
 }
 .home{
-    margin-left:auto;
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    margin-left: 350px;
+    margin-left: 300px;
+
 }
 .skills{
     margin-left: 50px;
@@ -74,7 +77,9 @@
     background-color: #212121;
     z-index: 222222;
     transition: 2s;
+
 }
 .smooth{
     transition: 1s;
 }
+

@@ -10,10 +10,7 @@ import Bootstrab from './Bootstrab'
 import Python from './Python'
 export default function Projects() {
   useEffect(()=>{
-    window.onload=()=>{
-      <Route path="/" element={<Allpro/>}/>
-
-    }
+      <Route path="/My-Portfolio"  element={<Allpro/>}/>
   },[])
   return (
     <>
@@ -24,8 +21,8 @@ export default function Projects() {
             <Header/>
         <Routes>
       
-            <Route path="/" element={<Allpro/>}/>
-            <Route path='/all' element={<Allpro/>}/>
+            <Route path="/My-Portfolio" element={<Allpro/>}/>
+            {/* <Route path='/all' element={<Allpro/>}/> */}
             <Route path='/react' element={<Reactpro/>}/>
             <Route path='/js' element={<JSpro/>}/>
             <Route path='/htmlcss' element={<Htmlcsspro/>}/>
